@@ -10,6 +10,8 @@
   justify-content: center;
   width: fit-content;
 
+  border: 0;
+
   border-radius: .5rem;
   font-weight: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
 
@@ -41,7 +43,7 @@
 }
 .btn-lg {
   padding: 1rem 2rem;
-  font-size: var(1.125rem);
+  font-size: 1.125rem;
 }
 
 .btn[aria-label] {
@@ -58,7 +60,7 @@
   &::after {
     content: attr(aria-label);
     background: var(--btn-bg-color);
-    --webkit-background-clip: text;
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     position: relative;
