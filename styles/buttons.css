@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   width: fit-content;
+  box-sizing: border-box;
 
   border: 0;
 
@@ -57,7 +58,7 @@
     content:"";
     position: absolute;
     border-radius: inherit;
-    inset: 0.094rem;
+    inset: 2px;
     background-color: var(--bg-color);
   }
 
